@@ -6,6 +6,8 @@
         public string Name { get; set; }
         public Author Author { get; set; }
         public Album Album { get; set; }
+        public int AuthorId { get; set; }
+        public int AlbumId { get; set; }
         public TimeOnly Duration { get; set; }
         public DateTime Release_Date { get; set; }
     }
